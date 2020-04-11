@@ -5,16 +5,13 @@
 A simple webserver built in Go using LabStack's Echo!
 
 - Intended Purpose:
-    - Security investigation aid
+    - Security investigation aid that offers simple logging
+    - Extensible with Middlewares
 
 - Notes:
     - Capable of hosting static sites (see sample site)
     - Opens on port 8080
     - Logging is enabled for failed requests
-
-- Planned updates:
-    - Add help feature (-h/--help)
-    - Add arguments (site path, port)
 
 ## Instructions
 
@@ -22,9 +19,8 @@ A simple webserver built in Go using LabStack's Echo!
 
 0. Place the executable in a directory with the files that are to be hosted
 1. Run the executable binary for the desired system
-2. Access port 8080
+2. Access port 8080 via a browser
 
-### Run from Source
+### Customized Operation
 
-0. Place the source code (main.go) in a directory with the files that are to be hosted
-1. go run main.go
+0. ./go-simple-webserver(.exe) -path *path to director* -port *port number*
