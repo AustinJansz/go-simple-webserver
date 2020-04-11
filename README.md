@@ -4,6 +4,18 @@
 
 A simple webserver built in Go using LabStack's Echo!
 
+- Intended Purpose:
+    - Test sites and design
+    - Security investigation aid (accepts requests)
+
+- Notes:
+    - Capable of hosting static sites (see sample site)
+    - Opens on port 8080
+
+- Planned updates:
+    - Add help feature (-h/--help)
+    - Add arguments (site path, port)
+
 ## Instructions
 
 ### Simple Method
