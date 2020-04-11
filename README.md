@@ -2,15 +2,16 @@
 
 *Author: Austin Jansz - DURHAM COLLEGE | UOIT | OntarioTechU*
 
-A simple webserver built in Go using LabStack's Echo!
+An extensible Echo webserver with bad-request logging.
 
 - Intended Purpose:
     - Security investigation aid that offers simple logging
-    - Extensible with Middlewares
+    - Extensible with [Middlewares](https://echo.labstack.com/middleware)
 
 - Notes:
     - Capable of hosting static sites (see sample site)
-    - Opens on port 8080
+    - Default path setting : current directory
+    - Default port setting : 8080
     - Logging is enabled for failed requests
 
 ## Instructions
@@ -23,4 +24,4 @@ A simple webserver built in Go using LabStack's Echo!
 
 ### Customized Operation
 
-0. ./go-simple-webserver(.exe) -path *path to director* -port *port number*
+0. ./go-simple-webserver(.exe) -path *path to directory* -port *port number*
